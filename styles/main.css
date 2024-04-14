@@ -1,0 +1,26 @@
+
+body {
+    font-size: 3vw;
+}
+.store .content{
+    display: flex;
+    justify-content: space-around;
+}
+/* .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.card > * {
+    flex-grow: 1;
+}
+.card-text {
+    flex-grow: 3;
+    /* min-height: 12rm; 
+}
+
+.card-img-top {
+    height:18rem;
+    width: 12rem;
+    object-fit: cover;
+} */
