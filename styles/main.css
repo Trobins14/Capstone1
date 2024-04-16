@@ -35,3 +35,16 @@ body {
 div {
     margin-left: 1rem;
 }
+
+.homecaro {
+    max-width: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .carousel-inner {
+    max-width: 50rem;
+    max-height: 40rem;
+    margin: auto;
+} 
+
