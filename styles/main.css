@@ -48,3 +48,70 @@ div {
     margin: auto;
 } 
 
+.content {
+    flex-wrap: wrap;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+    
+    
+
+    body {
+
+        transition: background-color 0.5s ease;
+      
+      }
+      
+      
+      .dark {
+      
+        background-color: #343a40;
+      
+        color: #fff;
+      
+      }
+      
+      
+      .dark a {
+      
+        color: #fff;
+      
+      }
+      
+      
+      .dark .btn-primary {
+      
+        background-color: #fff;
+      
+        border-color: #fff;
+      
+        color: #343a40;
+      
+      }
+      
+      
+      .dark .btn-primary:hover {
+      
+        background-color: #e9ecef;
+      
+        border-color: #e9ecef;
+      
+        color: #343a40;
+      
+      }
+
+ .card-text {
+    font-size: 1.5rem;
+    font-size: ;
+ }    
+.card {
+    /* display: block; */
+    /* margin-left: auto;
+    margin-right: auto;
+    float: none;
+    margin-bottom: 10px; */
+
+ }
