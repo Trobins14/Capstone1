@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="en" data-bs-theme="dark">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./styles/main.css">
-    <script src="./scripts/index.js"></script>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="./styles/main.css">
+  <script src="./scripts/index.js"></script>
+
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="./images/planetaryclosure1.webp" width="70">
-              </a>
-              
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarText">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="login.html">Login</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="register.html">Register</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="store.html">Store</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="cart.html">Cart</a>
-                  </li>
-                </ul>
-                <span class="navbar-text">
-                  <!-- Navbar text with an inline element -->
-                </span>
-              </div>
-            </div>
-          </nav>
-        <!-- <nav>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img src="./images/planetaryclosure1.webp" width="70">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+          aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="login.html">Login</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="store.html">Store</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="cart.html">Cart</a>
+            </li>
+          </ul>
+          <span class="navbar-text">
+            <!-- Navbar text with an inline element -->
+          </span>
+        </div>
+      </div>
+    </nav>
+    <!-- <nav>
             <a href="index.html">Main Menu</a> 
             <a href="login.html">Login</a>
             <a href="register.html">Register</a>
             <a href="store.html">Store</a>
             <a href="cart.html">Cart</a>
         </nav> -->
-    </header>
-    <!-- <header>
+  </header>
+  <!-- <header>
         <nav>
             <a href="index.html">Main Menu</a> 
             <a href="login.html">Login</a>
@@ -59,31 +65,53 @@
             <a href="cart.html">Cart</a>
         </nav>
     </header> -->
-    <div class="content d-grid gap-2">
-        <table class="table table-dark table-striped">
-            <tr>
-                <th>Qty</th>
-                <th>Planet type</th>
-                <th>Price</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Peaceful Planet</td>
-                <td>40,000,000C</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Peaceful Planet</td>
-                <td>40,000,000C</td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Lush Planet</td>
-                <td>40,000,000C</td>
-            </tr>
-        </table>
-        <button class="btn btn-success">Checkout</button>
+  <div class="card" style="width: 33rem; display: flex; float: right;">
+    <div class="card-header">
+      PCA Checkout
     </div>
-    <footer>&copy;</footer>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item"><!-- Subtotal (1 item) $844,784,000 -->
+        <div class="container text-center">
+          <div class="row row-cols-3">
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+            <div class="col">Column</div>
+          </div>
+        </div>
+      </li>
+      <li class="list-group-item">Savings<br><em class="savings">-$100,000,000</em><br>$744,784,000</li>
+      <li class="list-group-item">Taxes Calculated at checkout</li>
+
+      <li class="list-group-item">Estimated Total $744,784,000</li>
+      <li class="list-group-item">
+        <button class="btn btn-success">Checkout</button>
+      </li>
+
+    </ul>
+  </div>
+  <div class="content d-grid gap-2">
+
+    <div class="card" style="width: 30rem;">
+      <img src="images/nomanssky5.jfif" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Expected deed release date, Sept 18</h5>
+        <p class="card-text"><strong>Reach</strong>, Temporate Planet, Earth-Like</p>
+      </div>
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item" style="color: #5cb85c;">$744,784,000</li>
+        <li class="list-group-item"><s>$844,784,000</s></li>
+        <li class="list-group-item" style="color: #5cb85c;"><em class="savings">You Save</em> $100,000,000</li>
+      </ul>
+      <div class="card-body">
+        <button type="button" class="btn btn-danger">Remove</button>&nbsp; &nbsp;
+        <button type="button" class="btn btn-primary">Save For Later</button>
+      </div>
+    </div>
+
+
+  </div>
+  <footer>&copy;</footer>
 </body>
+
 </html>

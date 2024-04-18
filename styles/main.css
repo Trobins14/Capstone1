@@ -160,4 +160,9 @@ div {
 .register-box {
     
 }
-    
+.savings {
+    color: darkgreen;
+     background-color: #5cb85c;
+     border-radius: .4rem;
+     font-size: medium;
+}
