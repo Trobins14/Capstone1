@@ -1,95 +1,97 @@
-
 body {
-    font-size: 3vw;
+  font-size: 3vw;
 }
-.store .content{
-    display: flex;
-    justify-content: space-around;
+
+.store .content {
+  display: flex;
+  justify-content: space-around;
 }
+
 .standaloneimg {
-    max-width: 30rem;
-    display: block;
-    margin-left:auto;
-    margin-right: auto;
+  max-width: 30rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 div {
-    margin-left: 1rem;
+  margin-left: 1rem;
 }
 
 .homecaro {
-    max-width: 30rem;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 30rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
- .carousel-inner {
-    max-width: 50rem;
-    max-height: 40rem;
-    margin: auto;
-} 
+.carousel-inner {
+  max-width: 50rem;
+  max-height: 40rem;
+  margin: auto;
+}
 
 .content {
-    flex-wrap: wrap;
-    margin-top: 3rem;
-    margin-left: auto;
-    margin-right: auto;
+  flex-wrap: wrap;
+  margin-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
-    
-    
 
-    body {
 
-        transition: background-color 0.5s ease;
-      
-      }
-      
-      
-      .dark {
-      
-        background-color: #343a40;
-      
-        color: #fff;
-      
-      }
-      
-      
-      .dark a {
-      
-        color: #fff;
-      
-      }
-      
-      
-      .dark .btn-primary {
-      
-        background-color: #fff;
-      
-        border-color: #fff;
-      
-        color: #343a40;
-      
-      }
-      
-      
-      .dark .btn-primary:hover {
-      
-        background-color: #e9ecef;
-      
-        border-color: #e9ecef;
-      
-        color: #343a40;
-      
-      }
 
- .card-text {
-    font-size: 1.5rem;
+body {
+
+  transition: background-color 0.5s ease;
+
 }
+
+
+.dark {
+
+  background-color: #343a40;
+
+  color: #fff;
+
+}
+
+
+.dark a {
+
+  color: #fff;
+
+}
+
+
+.dark .btn-primary {
+
+  background-color: #fff;
+
+  border-color: #fff;
+
+  color: #343a40;
+
+}
+
+
+.dark .btn-primary:hover {
+
+  background-color: #e9ecef;
+
+  border-color: #e9ecef;
+
+  color: #343a40;
+
+}
+
+.card-text {
+  font-size: 1.5rem;
+}
+
 .savings {
-    color: darkgreen;
-     background-color: #5cb85c;
-     border-radius: .4rem;
-     font-size: medium;
+  color: darkgreen;
+  background-color: #5cb85c;
+  border-radius: .4rem;
+  font-size: medium;
 }
